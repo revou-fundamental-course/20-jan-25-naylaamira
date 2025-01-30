@@ -1,0 +1,74 @@
+main {
+    display: flex;
+    gap: 16px;
+    padding: 32px;
+}
+
+footer {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.form-group {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+#submit {
+    background-color: skyblue;
+}
+
+#reset {
+    background-color: red;
+    color: white;
+}
+
+#Hasil-container {
+    text-align: center;
+    background-color: lightgray;
+    padding: 8px;
+}
+
+.hasil-bmi {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: skyblue;
+}
+
+#info-bmi p {
+    text-align: left;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+#disease {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    section:first-child, #Hasil-container {
+        width: 100%;
+        padding: 10px;
+    }
+}
